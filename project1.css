@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#button{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    transition: .5s ease-in-out;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+.cardthree1:nth-child(1){
+    margin-top: 4rem;
+    background-image: url(dinning\ rooom.jpg);
+    transition: .5s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cardthree1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+   
+}
+
+.logo{
+    text-align: left;
+    font-family:'Shadows Into Light', cursive;;
+    font-size: 3rem;
+    display: inline-block;
+    vertical-align: middle;
+    color:orange;
+}
+
+.cardthree2:nth-child(1){
+    margin-top: 6rem;
+   background-image: url(living\ room.jpg);
+   transition: .5s ease-in-out;
+   background-size: cover;
+   background-position: center;
+}
+
+.cardthree2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.cardthree3:nth-child(1) {
+    margin-top: 8rem;
+    background-image: url(coach.jpg); 
+    background-size: cover;
+    background-position: center;
+    transition: .5s ease-in-out;
+   }
+
+   .cardthree3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+   }
+
+#heading1{
+    font-family:'Shadows Into Light', cursive;;
+    margin-top: 4rem;
+    text-transform:lowercase;
+    color: #0C374D;
+    text-decoration: underline #0C374D;
+}
+/* Colorize-zoom Container */
+.card-img-top {
+    transition: transform .5s, filter .5s ease-in-out;
+    filter: grayscale(100%);
+  }
+  
+  /* The Transformation */
+  .card-img-top:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .card-title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+  }
+#button3{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    transition: .5s ease-in-out;
+}
+#button3:hover{
+    cursor: pointer;
+    background-color:orange;
+}
+
+.custom-media{
+    height: 960px;
+}
+
+
+@media (max-width:1400px) {
+    .cardthree3{
+        display: none !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .cardthree2{
+        display: none !important;
+    }
+}
+
+@media (max-width:993px) {
+    .cardthree1{
+        display:flex;
+    }
+    .cardthree3{
+        display: flex !important;
+    }
+    .cardthree2{
+        display: flex !important;
+    }
+    .custom-media{
+        height: 1260px !important;
+    }
+}
+
+
+@media (max-width:768px) {
+    .custom-media{
+        height: 1310px !important;
+    }
+}
+
+@media (max-width:429px) {
+    .custom-media{
+        height: 1335px !important;
+    }
+}
+
+@media (max-width:376px) {
+    .custom-media{
+        height: 1400px !important;
+    }
+}
+
+@media (max-width:332px) {
+    .custom-media{
+        height: 1440px !important;
+    }
+}
+
+@media (max-width:312px) {
+    .custom-media{
+        height: 1480px !important;
+    }
+}
+
+@media (max-width:284px) {
+    .custom-media{
+        height: 1510px !important;
+    }
+}
